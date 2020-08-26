@@ -20,4 +20,3 @@ def prime?(num)
   end
 end
 
-benchmark.measure
