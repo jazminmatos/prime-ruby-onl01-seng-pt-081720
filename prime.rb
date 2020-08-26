@@ -19,3 +19,5 @@ def prime?(num)
   true
   end
 end
+
+benchmark.measure
