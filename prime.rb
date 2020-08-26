@@ -7,6 +7,8 @@
     # to check if something is prime - check if num is divisible by any # in a range from 2 to num's square root.  
 #(41).each do |41|...if the remainder of 1763 divided by 41 == 0 
 
+require benchmark
+
 def prime?(num) 
   if !num.integer?
     return false
